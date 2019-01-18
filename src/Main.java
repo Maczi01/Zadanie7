@@ -5,7 +5,8 @@ public class Main {
         Triangle triangle = new Triangle(13,5,12);
         Calculations c = new Calculations(triangle);
 
-        System.out.println( c.isRightTriangle(triangle));
+        System.out.println(c.isRightTriangle(triangle));
+        System.out.println(c.isRightTriangleEgyptianMethod(triangle));
 
     }
 }
