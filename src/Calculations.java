@@ -1,10 +1,5 @@
 public class Calculations {
 
-    Triangle triangle;
-
-    public Calculations(Triangle triangle) {
-        this.triangle = triangle;
-    }
 
     public boolean isRightTriangle(Triangle t) {
         if ((t.getA() * t.getA() + t.getB() * t.getB() == t.getC() * t.getC()) ||
